@@ -6,5 +6,31 @@
     </head>
     <body>
         <h1>Chat-App</h1>
+        <p>Need an Account? - SignUp</p>
+        <form action="/users" method="POST">
+            <div>
+            <input type="text" placeholder="name" name="name" required>
+            <input type="email" placeholder="email" name="email" required>
+            </div>
+            <br>
+            <div>
+            <input type="password" placeholder="password" name="password" required minlength="8">
+            </div>
+            <br>
+            <button type="submit">SignUp</button>
+        </form>
+        <p>Already have an Account? - SignIn</p>
+        <form action="/users/login" method="POST">
+            <div>
+            <input type="email" placeholder="email" name="email" required>
+            </div>
+            <br>
+            <div>
+            <input type="password" placeholder="password" name="password" required>
+            <input type="text" placeholder="room" name="room" required>
+            </div>
+            <br>
+            <button type="submit">SignIn</button>
+        </form>
     </body>
 </html>
