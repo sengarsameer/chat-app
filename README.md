@@ -13,7 +13,8 @@
 * /public
   * /css : All the styling and alignment fix by css code
   * /js : connect server using web sockets and chat's functions
-  * html files
+  * chat.html : chat box fontend
+  * index.html : landing page frontend (signup & login)
 
 * /src
   * /db : create a connection with database
